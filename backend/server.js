@@ -14,7 +14,7 @@ const app = express();
 
 // cors
 app.use(cors({
-   origin:["https://capstone-project-zeta-ebon.vercel.app"],
+   origin:["https://capstone-project-jj06.onrender.com"],
   methods:["POST","GET"],
   credentials:true
   // none in server render
