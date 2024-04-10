@@ -44,7 +44,7 @@ function Sidebar() {
     
     try {
       const result = await axios.post(
-        "http://localhost:4000/upload-audio",
+        "https://capstone-project-jj06.onrender.com/upload-audio",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
@@ -68,7 +68,7 @@ function Sidebar() {
   const getAudio = async (userId) => {
     
     try {
-      const result = await axios.get("http://localhost:4000/get-audio", {
+      const result = await axios.get("https://capstone-project-jj06.onrender.com/get-audio", {
         params: { userId }
       });
       setAudioFiles(result.data.audioData);
@@ -82,7 +82,7 @@ function Sidebar() {
   const deleteAudio = async (id) => {
     try {
       setLoading(true); // Set loading to true while deleting
-      await axios.delete(`http://localhost:4000/file/${id}`);
+      await axios.delete(`https://capstone-project-jj06.onrender.com/file/${id}`);
       // Refresh the audio list after deletion
       await getAudio();
     } catch (error) {
