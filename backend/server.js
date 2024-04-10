@@ -13,10 +13,7 @@ const app = express();
 
 
 // cors
-app.use(cors({
-    origin: 'https://capstone-project-jj06.onrender.com/',
-    credentials: true // If you're sending cookies or authentication headers
-}));
+app.use(cors());
 
 // middleware
 app.use(express.json())
