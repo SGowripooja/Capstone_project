@@ -39,7 +39,7 @@ padding: 10px;
 
 .activepod-name{
     font-family: Copperplate, Papyrus, fantasy;
-  left:5%;
+  left:35%;
   transform: translate(-50,0);
   display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ padding: 10px;
 .activeartistspod-name{
     /* color: rgb(218 182 0);; */
     font-family: Copperplate, Papyrus, fantasy;
-    left:6%;
+    left:36%;
     transform: translate(-50,0);
     display: flex;
       justify-content: center;
