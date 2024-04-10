@@ -4,6 +4,7 @@ import PodcastFiles from "../../components/PodcastFiles/PodcastFiles"
 import PodcastPlayer from "../../components/PodcastPlayer/PodcastPlayer";
 import '../../App.css'
 import { useState } from "react";
+import './Podcast.css'
 
 
 function Podcasts() {
