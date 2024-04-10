@@ -14,8 +14,8 @@ const app = express();
 
 // cors
 app.use(cors({
-  origin:["http://localhost:3000"],
-  mathods:["POST","GET"],
+  // origin:["http://localhost:3000"],
+  methods:["POST","GET"],
   credentials:true
   // none in server render
 }));
