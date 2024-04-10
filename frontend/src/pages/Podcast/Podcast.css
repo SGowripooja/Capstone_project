@@ -1,0 +1,104 @@
+.pod-home-container {
+  display: flex;
+  justify-content: space-between;
+   overflow-x: hidden; 
+   width: 50%;
+   /* width: auto; */
+   margin: 0;
+   /* flex-wrap: wrap;  */
+   gap: 10px; 
+  }
+  
+  .pod-player-main {
+    flex: 1; 
+    padding: 10px;
+  }
+  
+  .pod-audio-list {
+    width: 500px; 
+    height:auto;
+    padding: 10px;
+    /* background-image: url(''); */
+    color: grey;
+    overflow-x: hidden;
+    margin-right:20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow-y: auto;
+  }
+  
+  .pod-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pod-list li {
+    padding: 10px;
+   
+  }
+  
+  .pod-list li:last-child {
+    border-bottom: none;
+  }
+  
+.pod-list-title{
+ font-color: white;
+ font-family: Copperplate, Papyrus, fantasy;
+}
+/* 
+.pod-player-main 
+.pod-audio-list {
+  flex: 1 1 100%; 
+} */
+
+/* .pod-home-container {
+  display: flex;
+justify-content: space-between;
+ overflow-x: hidden; 
+ width: 50%;
+ width: auto;
+ margin: 0;
+ 
+ gap: 10px; 
+}
+
+
+
+.pod-audio-list {
+ width: 500px; 
+ padding: 10px;
+ background-image: url('https://m.media-amazon.com/images/I/813mZCjKSWL._AC_SL1500_.jpg?7hqt659brkp0g');
+ overflow-x: hidden;
+ margin-right:20px;
+ margin-top: 30px;
+ border-radius: 20px;
+ overflow-y: auto;
+}
+
+.pod-list {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+.pod-list li {
+ padding: 10px;
+
+}
+
+.pod-list li:last-child {
+ border-bottom: none;
+}
+
+.pod-list-title{
+font-color: white;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+/* .pod-player-main 
+.pod-audio-list {
+flex: 1 1 100%; 
+} */
+ */

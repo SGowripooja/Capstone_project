@@ -1,0 +1,51 @@
+.home-container {
+     display: flex;
+   justify-content: space-between;
+    overflow-x: hidden; 
+    width: 50%;
+    width: auto;
+    margin: 0;
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+ 
+  
+  .audio-list {
+    width: 500px; 
+    padding: 10px;
+    background-image: url('https://m.media-amazon.com/images/I/813mZCjKSWL._AC_SL1500_.jpg?7hqt659brkp0g');
+    overflow-x: hidden;
+    margin-right:20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow-y: auto;
+  }
+  
+  .song-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-list li {
+    padding: 10px;
+   
+  }
+  
+  .song-list li:last-child {
+    border-bottom: none;
+  }
+  
+.song-list-title{
+ font-color: white;
+ font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+.player-main 
+.audio-list {
+  flex: 1 1 100%; 
+}
+
+

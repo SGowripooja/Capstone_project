@@ -1,0 +1,70 @@
+
+/* .sub-container {
+    width: 500px;
+    height: 610px;
+    background: rgb(250, 224, 60);
+    margin-left: 430px;
+    pading: 30px;
+    border-radius: 20px;
+  }
+
+  .sub-header {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  li {
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+
+  .sub-l-header{
+    font-weight: bold;
+    font-size: 20px;
+  } */
+
+  .sub-container {
+    width: 90%; /* Adjust width as a percentage for responsiveness */
+    max-width: 500px; /* Set a maximum width */
+    height: auto; /* Let the height adjust based on content */
+    background: rgb(250, 224, 60);
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 30px; /* Corrected spelling from 'pading' to 'padding' */
+    border-radius: 20px;
+}
+
+.sub-header {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sub-l-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .sub-container {
+        width: 90%; /* Adjust width as needed for smaller screens */
+        margin-left: auto; /* Reset margin-left for centering */
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,16 @@
+.sidebar{
+    width: 360px;
+    height: 550px;
+    background: grey;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.upload-btn{
+    margin-top: 20px;
+   
+}
+
+.input-box{
+    width: 250px;
+}
